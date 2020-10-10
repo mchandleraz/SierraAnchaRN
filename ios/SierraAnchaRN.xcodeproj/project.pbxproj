@@ -20,7 +20,7 @@
 		8215B8EBD9881EBA0EA3ADE3 /* libPods-SierraAnchaRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B55EDF807E058CAAFB68EF6C /* libPods-SierraAnchaRN.a */; };
 		A72E12DABC52D2BEA80D627E /* libPods-SierraAnchaRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E46774514E9547B7C7131C0 /* libPods-SierraAnchaRN-tvOSTests.a */; };
 		C4EFCDF4AEB05E86FBBD7DB0 /* libPods-SierraAnchaRN-SierraAnchaRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FF1F07267A8B5E23F4A6EC /* libPods-SierraAnchaRN-SierraAnchaRNTests.a */; };
-		C970C0502532310A00CE1192 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C970C04F2532310A00CE1192 /* AppCenter-Config.plist */; };
+		C970C0CA25327F2A00CE1192 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C970C0C925327F2A00CE1192 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		9E46774514E9547B7C7131C0 /* libPods-SierraAnchaRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SierraAnchaRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F46F48EE7E9A0AC1F6CEE6 /* libPods-SierraAnchaRN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SierraAnchaRN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55EDF807E058CAAFB68EF6C /* libPods-SierraAnchaRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SierraAnchaRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C970C04F2532310A00CE1192 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "../AppCenter-Config.plist"; sourceTree = "<group>"; };
+		C970C0C925327F2A00CE1192 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		D12D89E92FAC616335030FA9 /* Pods-SierraAnchaRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SierraAnchaRN.release.xcconfig"; path = "Target Support Files/Pods-SierraAnchaRN/Pods-SierraAnchaRN.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -161,7 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				C970C04F2532310A00CE1192 /* AppCenter-Config.plist */,
+				C970C0C925327F2A00CE1192 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* SierraAnchaRN */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* SierraAnchaRNTests */,
@@ -346,7 +346,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				C970C0502532310A00CE1192 /* AppCenter-Config.plist in Resources */,
+				C970C0CA25327F2A00CE1192 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
